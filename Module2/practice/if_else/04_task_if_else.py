@@ -5,3 +5,12 @@
 # Для всех остальных случаев не выводить ничего.
 
 # TODO: your code here
+a=int(input("a "))
+if a%3==0:
+    if a%5!=0:
+        print("Foo")
+    else:
+        print("Foobar")
+else:
+    if a%5==0:
+        print("Bar")
