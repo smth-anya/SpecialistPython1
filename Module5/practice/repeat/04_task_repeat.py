@@ -6,5 +6,11 @@
 # веб-странице и вывода списка остальных страниц.
 
 def pagination(num_items, items_on_page):
-    pass
+    import math
+    return math.ceil(num_items / items_on_page)
 
+print(pagination(3,3))
+print(pagination(5,3))
+print(pagination(1,3))
+print(pagination(11,3))
+print(pagination(100,4))
